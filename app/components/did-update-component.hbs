@@ -1,0 +1,10 @@
+<div
+  {{did-insert (fn this.updateState @entity)}}
+  {{did-update (fn this.updateState @entity)}}
+>
+  {{#if this.isPerson}}
+    Person
+  {{else}}
+    Robot
+  {{/if}}
+</div>

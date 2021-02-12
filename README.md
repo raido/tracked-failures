@@ -1,7 +1,6 @@
 # tracked-failures
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Update package.json -> "ember-source": "~3.20.0" -> npm install -> tests pass.
 
 ## Prerequisites
 
